@@ -151,14 +151,14 @@ const COMPETENCES = {
           },
           {
             code: 'AC22.02',
-            titre: "Utiliser des techniques algorithmiques adaptées pour des problèmes complexes",
+            titre: "Comprendre les enjeux et moyens de sécurisation des données et du code",
             contexte: "Dans le cadre de mon stage chez Intelligence School, les workflows n8n devaient s'authentifier à l'API GESécole avant chaque appel. Pour sécuriser cette authentification, j'ai mis en place un sous-workflow dédié au login qui récupère un token JWT, token ensuite réutilisé dynamiquement dans les nœuds HTTP suivants sans jamais être stocké en dur dans le code.",
             situation: "Cette capture montre la configuration du nœud HTTP Request 'Get Docs' dans n8n, avec le header Authorization renseigné dynamiquement via l'expression Bearer {{ $json.token }}. Le token est injecté à l'exécution depuis le résultat du nœud GES Login, garantissant qu'aucune credential n'est exposée en clair dans le workflow.",
             preuve: "images/Competences/2/ac22.02.png"
           },
           {
             code: 'AC22.03',
-            titre: "Comprendre les enjeux et moyens de sécurisation des données et du code",
+            titre: "Utiliser des techniques algorithmiques adaptées pour des problèmes complexes",
             contexte: "Dans le cadre d'un projet universitaire, j'ai développé un chatbot de recommandation d'animés et de mangas utilisant un LLM (Groq) combiné à l'API AniList. L'intelligence artificielle est utilisée pour analyser la requête de l'utilisateur, interroger l'API, et traduire automatiquement les descriptions en français lorsqu'elles sont disponibles uniquement en anglais.",
             situation: "Cette capture montre le chatbot en fonctionnement avec la saisie 'Gachiakuta' : le système retourne 7 recommandations personnalisées avec poster, note, genres, description traduite en français et lien AniList. L'interface affiche également le LLM utilisé (Groq) et la source des données (AniList API), illustrant l'intégration concrète de l'IA dans une application fonctionnelle.",
             preuve: "images/Competences/2/ac22.03.png"
@@ -254,7 +254,7 @@ const COMPETENCES = {
           },
           {
             code: 'AC23.02',
-            titre: "Déployer des services dans une architecture réseau",
+            titre: "Utiliser des serveurs et des services réseaux virtualisés",
             contexte: "Dans le cadre d'un projet personnel, j'ai développé Domino 972, un jeu de dominos martiniquais en mode multijoueur temps réel. L'application repose sur une architecture client-serveur avec un backend Node.js/Express qui expose une API REST et gère la synchronisation des parties via WebSocket.",
             situation: "Cette capture montre une partie multijoueur en cours avec 3 joueurs connectés simultanément (Sayann, Moi, Nolaan), le plateau de jeu partagé en temps réel et le code de salle '1809'. La synchronisation instantanée des actions entre les joueurs est assurée par WebSocket, illustrant la conception et le déploiement d'une application communicante avec gestion d'état réseau en temps réel.",
             preuve: 'images/Competences/2/ac23.02.png'
