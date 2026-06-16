@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>À propos — Lucas Arnaud</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="site-nav"></div>
+
+  <main class="page">
+
+    <!-- ── HEADER ── -->
+    <header class="about-header container">
+      <div class="about-header-left">
+        <p class="label reveal">
+          <span class="label-prefix">//</span> Curriculum Vitæ
+        </p>
+        <h1 class="section-title reveal reveal-delay-1">Lucas Arnaud</h1>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Étudiant en 2e année de BUT Informatique à l'IUT de Martinique.
+        </p>
+      </div>
+      <div class="reveal reveal-delay-3">
+        <a href="cv-lucas-arnaud.pdf" download class="cv-download-icon"
+           title="Télécharger le CV en PDF" aria-label="Télécharger le CV en PDF">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+               xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M8 1v9M5 7l3 3 3-3" stroke="currentColor" stroke-width="1.4"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 11v2a1 1 0 001 1h10a1 1 0 001-1v-2"
+                  stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <span class="cv-download-label">PDF</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- ── CV BODY : sidebar LEFT · main RIGHT ── -->
+    <div class="container">
+      <div class="cv-grid">
+
+        <!-- ════ SIDEBAR (GAUCHE) ════ -->
+        <aside class="cv-sidebar">
+
+          <!-- Photo -->
+          <div class="cv-section reveal">
+            <div class="profile-photo-placeholder">
+              <img src="images/About/photo.png" alt="Illustration : mangas" loading="lazy" />
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <section class="cv-section reveal">
+            <div class="cv-section-header">
+              <span class="cv-section-num">//</span>
+              <p class="label">Contact</p>
+            </div>
+            <dl style="display:flex;flex-direction:column;gap:.85rem">
+              <div>
+                <dt class="label" style="margin-bottom:.25rem">Localisation</dt>
+                <dd style="font-size:.875rem">Fort-de-France, Martinique</dd>
+              </div>
+              <div>
+                <dt class="label" style="margin-bottom:.25rem">E-mail</dt>
+                <dd style="font-size:.875rem">lucas.arnaud.06@gmail.com</dd>
+              </div>
+              <div>
+                <dt class="label" style="margin-bottom:.25rem">Numéro de téléphone</dt>
+                <dd style="font-size:.875rem">+596 696 78 84 71</dd>
+              </div>
+              <div>
+                <dt class="label" style="margin-bottom:.25rem">Date de naissance</dt>
+                <dd style="font-size:.875rem">24/02/2006</dd>
+              </div>
+            </dl>
+          </section>
+
+          <!-- Compétences techniques -->
+          <section class="cv-section reveal">
+            <div class="cv-section-header">
+              <span class="cv-section-num">//</span>
+              <p class="label">Compétences techniques</p>
+            </div>
+
+            <div class="skills-group">
+              <p class="skills-group-title">Développement & Programmation</p>
+              <div class="tags">
+                <span class="tag tag-accent">Python</span>
+                <span class="tag tag-accent">SQL</span>
+                <span class="tag tag-accent">HTML / CSS</span>
+                <span class="tag tag-accent">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="skills-group">
+              <p class="skills-group-title">Bureautique</p>
+              <div class="tags">
+                <span class="tag">Word</span>
+                <span class="tag">PowerPoint</span>
+                <span class="tag">Excel</span>
+              </div>
+            </div>
+
+            <div class="skills-group">
+              <p class="skills-group-title">Outils</p>
+              <div class="tags">
+                <span class="tag">n8n</span>
+                <span class="tag">utilisation d’API</span>
+                <span class="tag">Montage photo/vidéo</span>
+                <span class="tag">Paint.NET</span>
+              </div>
+            </div>
+          </section>
+
+          <!-- Langues -->
+          <section class="cv-section reveal">
+            <div class="cv-section-header">
+              <span class="cv-section-num">//</span>
+              <p class="label">Langues</p>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:.65rem">
+              <div style="display:flex;justify-content:space-between;align-items:baseline">
+                <span style="font-size:.875rem;font-weight:500">Français</span>
+                <span class="label">Langue maternelle</span>
+              </div>
+              <hr class="divider" />
+              <div style="display:flex;justify-content:space-between;align-items:baseline">
+                <span style="font-size:.875rem;font-weight:500">Anglais</span>
+                <span class="label">B2</span>
+              </div>
+              <hr class="divider" />
+              <div style="display:flex;justify-content:space-between;align-items:baseline">
+                <span style="font-size:.875rem;font-weight:500">Espagnol</span>
+                <span class="label">A2</span>
+              </div>
+            </div>
+          </section>
+
+        </aside>
+
+        <!-- ════ MAIN (DROITE) ════ -->
+        <div class="cv-main">
+
+          <!-- Formation -->
+          <section class="cv-section reveal">
+            <div class="cv-section-header">
+              <span class="cv-section-num">//</span>
+              <p class="label">Formations</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-year">2024<br />→ 2027</div>
+              <div class="timeline-content">
+                <h3>Bachelor Universitaire de Technologie Informatique</h3>
+                <p class="subtitle">IUT Martinique, Schoelcher</p>
+                <p><em>Parcours réalisation d'applications : Conception, Développement, Validation</em></p>
+                <p>Programmation - Bases de données - Développement d’applications - Réseaux / Systèmes - Gestion de projet</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-year">2021<br />→ 2024</div>
+              <div class="timeline-content">
+                <h3>Baccalauréat Général</h3>
+                <p class="subtitle">Lycée Joseph Pernock, Lorrain/p>
+                <p>Mathématique - Science de l’Ingénieur | Mention Assez Bien</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Expériences -->
+          <section class="cv-section reveal">
+            <div class="cv-section-header">
+              <span class="cv-section-num">//</span>
+              <p class="label">Expériences</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-year"> Juillet – Août 2025</div>
+              <div class="timeline-content">
+                <h3>Agent technique polyvalent</h3>
+                <p class="subtitle">Service technique, Ajoupa-Bouillon</p>
+                <div class="placeholder-text" style="margin-top:.5rem">
+                  • Réalisation de petites réparations et maintenance des infrastructures.
+                  <br>• Entretien des locaux et gestion du matériel pour les événements municipaux.
+                  <br>• Application des règles de sécurité et suivi des interventions techniques.
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-year">Juin 2025</div>
+              <div class="timeline-content">
+                <h3>Stagiaire en automatisation des processus</h3>
+                <p class="subtitle">Intelligence School, Fort-de-France</p>
+                <div class="placeholder-text" style="margin-top:.5rem">
+                  • Analyse et test d’API pour créer des workflows automatisés avec n8n.
+                  <br>• Étude de l’intégration d’agents IA pour améliorer les processus internes.
+                  <br>• Rédaction d’une documentation technique sur les outils et méthodes utilisés.
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div><!-- /cv-main -->
+      </div><!-- /cv-grid -->
+    </div><!-- /container -->
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer-inner">
+      <p>Lucas Arnaud &mdash; BUT Informatique &mdash; IUT de Martinique</p>
+      <p>Portfolio &copy; 2026</p>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/effects.js"></script>
+</body>
+</html>
