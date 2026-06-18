@@ -491,7 +491,7 @@ const COMPETENCES = {
             titre: "Comprendre la diversité, la digitalisation et les enjeux économiques et écologiques de l'informatique",
             contexte: "Dans le cadre de mon stage chez Intelligence School, j'ai participé au développement et à la gestion du bot Telegram utilisé par les collaborateurs des 4 centres. Ce bot repose sur une base de données Neon qui gère les accès et les rôles de chaque utilisateur autorisé à interagir avec le système.",
             situation: "Cette capture montre la table users de la base Neon du bot Telegram IS, avec les colonnes telegram_id, user_id, name, active, created_at, email et role. On y distingue 4 rôles différents : admin (Mathieu Brival-Calixte), admin_stage (Andy Lowenski, Kenjy Jacques), gerant (Paul-Henri Jos) et user (Lucas Arnaud, Nadia Suaud, Marylène Caliste, Alex Cebarec). Cette structure illustre la modélisation des parties prenantes du système avec des niveaux d'accès différenciés selon les responsabilités de chaque acteur.",
-            preuve: ''
+            preuve: 'images/Competences/2/ac26.01.png'
           },
           {
             code: 'AC26.02',
@@ -506,7 +506,7 @@ const COMPETENCES = {
             titre: "Mobiliser les compétences interpersonnelles pour travailler en équipe",
             contexte: "Durant mon stage chez Intelligence School, les trois stagiaires (Kenjy, Lucas, Andy) ont tenu une réunion de cadrage avec Mathieu pour organiser le travail collectif, répartir les missions et préparer une présentation d'équipe. Cette réunion a été documentée dans Notion avec un résumé et des action items nominatifs.",
             situation: "Cette capture montre le compte-rendu Notion de la réunion de cadrage avec les 3 stagiaires : le résumé explique l'objectif collectif (assigner les missions, expliquer les workflows, préparer la présentation du jeudi 17 avril), et les action items détaillent les tâches assignées par personne — Kenjy sur WhatsApp/Dashlane, Lucas sur le Bot Telegram, Andy sur VAPI — ainsi que des tâches d'équipe communes, illustrant une organisation collaborative structurée.",
-            preuve: ''
+            preuve: 'images/Competences/2/ac26.03.png'
           },
           {
             code: 'AC26.04',
