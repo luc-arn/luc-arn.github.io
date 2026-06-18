@@ -506,7 +506,7 @@ const COMPETENCES = {
             titre: "Mobiliser les compétences interpersonnelles pour travailler en équipe",
             contexte: "Durant mon stage chez Intelligence School, les trois stagiaires (Kenjy, Lucas, Andy) ont tenu une réunion de cadrage avec Mathieu pour organiser le travail collectif, répartir les missions et préparer une présentation d'équipe. Cette réunion a été documentée dans Notion avec un résumé et des action items nominatifs.",
             situation: "Cette capture montre le compte-rendu Notion de la réunion de cadrage avec les 3 stagiaires : le résumé explique l'objectif collectif (assigner les missions, expliquer les workflows, préparer la présentation du jeudi 17 avril), et les action items détaillent les tâches assignées par personne — Kenjy sur WhatsApp/Dashlane, Lucas sur le Bot Telegram, Andy sur VAPI — ainsi que des tâches d'équipe communes, illustrant une organisation collaborative structurée.",
-            preuve: 'images/Competences/2/ac26.01.png'
+            preuve: ''
           },
           {
             code: 'AC26.04',
