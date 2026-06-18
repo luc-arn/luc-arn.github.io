@@ -491,7 +491,7 @@ const COMPETENCES = {
             titre: "Comprendre la diversité, la digitalisation et les enjeux économiques et écologiques de l'informatique",
             contexte: "Dans le cadre de mon stage chez Intelligence School, j'ai participé au développement et à la gestion du bot Telegram utilisé par les collaborateurs des 4 centres. Ce bot repose sur une base de données Neon qui gère les accès et les rôles de chaque utilisateur autorisé à interagir avec le système.",
             situation: "Cette capture montre la table users de la base Neon du bot Telegram IS, avec les colonnes telegram_id, user_id, name, active, created_at, email et role. On y distingue 4 rôles différents : admin (Mathieu Brival-Calixte), admin_stage (Andy Lowenski, Kenjy Jacques), gerant (Paul-Henri Jos) et user (Lucas Arnaud, Nadia Suaud, Marylène Caliste, Alex Cebarec). Cette structure illustre la modélisation des parties prenantes du système avec des niveaux d'accès différenciés selon les responsabilités de chaque acteur.",
-            preuve: 'images/Competences/2/ac26.01.png'
+            preuve: ''
           },
           {
             code: 'AC26.02',
