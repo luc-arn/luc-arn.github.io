@@ -166,8 +166,8 @@ const COMPETENCES = {
           {
             code: 'AC22.04',
             titre: "Évaluer l'impact environnemental et sociétal des solutions proposées",
-            contexte: "Dans le cadre du module R4.04 Méthodes d'optimisation (S4), nous avons étudié et appliqué l'algorithme de Ford-Fulkerson pour résoudre des problèmes de flot maximal sur des réseaux de transport. Cet algorithme permet de trouver la solution optimale de manière efficace en identifiant des chaînes améliorantes successives, là où une énumération exhaustive serait computationnellement inenvisageable.",
-            situation: "Cette capture présente la résolution complète d'un problème de flot maximal : validation du flot initial (valeur 11), identification de la chaîne améliorante 1→2→4→3→6→7, mise à jour du réseau résiduel, puis détermination de la coupe minimale (capacité 7+7=14) prouvant l'optimalité du flot final de valeur 14.",
+            contexte: "Dans le cadre du projet Librom, au-delà des aspects techniques, nous avons réfléchi à l'impact sociétal et environnemental de la solution développée. Cette analyse a été menée pour évaluer en quoi nos choix techniques et fonctionnels répondaient à des enjeux qui dépassent le simple cadre du développement.",
+            situation: "Ce document analyse l'impact de Librom selon trois axes : l'accès universel à la culture (œuvres gratuites, sans abonnement ni publicité), la sobriété numérique (stack légère PHP/MySQL accessible depuis tout appareil), et l'impact territorial spécifique à la Martinique où l'accès aux livres physiques est limité et coûteux. Il illustre comment des choix techniques délibérés peuvent répondre à des enjeux sociétaux concrets.",
             preuve: "images/Competences/2/ac22.04.png"
           }
         ]
@@ -504,8 +504,8 @@ const COMPETENCES = {
           {
             code: 'AC26.03',
             titre: "Mobiliser les compétences interpersonnelles pour travailler en équipe",
-            contexte: "Lors de notre première réunion de cadrage en stage chez Intelligence School, les trois stagiaires (Kenjy, Lucas et Andy) se sont réunis pour organiser le travail en autonomie après la passation avec le tuteur temporaire. La réunion avait pour objectif d'assigner les missions principales, de détailler les workflows d'automatisation Notion existants et de préparer la présentation d'équipe prévue le jeudi 17 avril à 16h.",
-            situation: "Ce compte-rendu de réunion formalise la répartition des missions entre les trois stagiaires : Mission 1 WhatsApp/Dashlane assignée à Kenjy, Mission 2 Bot Telegram assignée à Lucas, Mission 3 VAPI assignée à Andy. Il atteste d'une organisation collective structurée, avec une répartition explicite des rôles et des niveaux de complexité définis pour chaque mission.",
+            contexte: "Durant mon stage chez Intelligence School, les trois stagiaires (Kenjy, Lucas, Andy) ont tenu une réunion de cadrage avec Mathieu pour organiser le travail collectif, répartir les missions et préparer une présentation d'équipe. Cette réunion a été documentée dans Notion avec un résumé et des action items nominatifs.",
+            situation: "Cette capture montre le compte-rendu Notion de la réunion de cadrage avec les 3 stagiaires : le résumé explique l'objectif collectif (assigner les missions, expliquer les workflows, préparer la présentation du jeudi 17 avril), et les action items détaillent les tâches assignées par personne — Kenjy sur WhatsApp/Dashlane, Lucas sur le Bot Telegram, Andy sur VAPI — ainsi que des tâches d'équipe communes, illustrant une organisation collaborative structurée.",
             preuve: 'images/Competences/2/ac26.03.png'
           },
           {
